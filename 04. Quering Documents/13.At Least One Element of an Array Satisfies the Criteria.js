@@ -1,0 +1,1 @@
+db.users.find( { finished: { $gt: 15, $lt: 20 } } )

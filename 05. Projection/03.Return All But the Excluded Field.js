@@ -1,0 +1,1 @@
+db.users.find( { status: "A" }, { favorites: 0, points: 0 } )

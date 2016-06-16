@@ -1,0 +1,1 @@
+db.users.find( { "badges.0": "black" } )

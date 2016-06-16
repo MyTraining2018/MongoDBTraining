@@ -1,0 +1,1 @@
+db.users.find( { "points.points": { $lte: 70 }, "points.bonus": 20 } )

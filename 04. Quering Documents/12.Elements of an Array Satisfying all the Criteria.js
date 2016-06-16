@@ -1,0 +1,1 @@
+db.users.find( { finished: { $elemMatch: { $gt: 15, $lt: 20 } } } )

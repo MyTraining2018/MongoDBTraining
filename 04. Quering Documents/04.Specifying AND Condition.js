@@ -1,0 +1,1 @@
+db.users.find( { status: "A", age: { $lt: 30 } } )
